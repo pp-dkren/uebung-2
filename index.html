@@ -11,20 +11,20 @@
 
 <body>
   <div class="outer">
-    <header id="header">
-      <div class="header-nav">
-        <nav id="main-nav">
+    <header class="header">
+      <div class="header-nav wrap">
+        <nav class="main-nav">
           <button onclick="menu_toggle()" class="menu_button" name="menu_button" title="Menü">
-            <img src="img/bars.svg" alt="">
-            <span class="menu">Menü</span>
+            <img class="symbol" src="img/bars.svg" alt="">
+            <span class="menu-button-label">Menü</span>
           </button>
           <ul id="main-menu">
-            <li><a href="">Leckeres</a></li>
-            <li><a href="">Erlesenes</a></li>
-            <li><a href="">Das Team</a></li>
-            <li><a href="">Unser Anspruch</a></li>
-            <li><a href="">Für Daheim</a></li>
-            <li><a href="">Finde uns</a></li>
+            <li><a href="#leckeres">Leckeres</a></li>
+            <li><a href="#erlesenes">Erlesenes</a></li>
+            <li><a href="#das-team">Das Team</a></li>
+            <li><a href="#unser-anspruch">Unser Anspruch</a></li>
+            <li><a href="#fuer-daheim">Für Daheim</a></li>
+            <li><a href="#finde-uns">Finde uns</a></li>
           </ul>
         </nav>
         <nav class="social-nav">
@@ -43,7 +43,48 @@
       </section>
     </header>
     <main class="main">
-
+      <!-- Intro -->
+      <section id="intro" class="section bg-white">
+        <div class="wrap">
+          <h1>Das Beans and Books ist euer Büchercafé in München</h1>
+          <p>Bücher für jeden Geschmack und erlesener Kaffee. Entdeckt hausgemachte Köstlichkeiten und stöbert in unserer breiten Bücherauswahl... oder lasst einfach nur die Seele baumeln.</p>
+        </div>
+        <div class="slider">
+          <img src="img/bb_pflanzen-320x180.jpg" alt="">
+        </div>
+      </section>
+      <!-- Leckeres -->
+      <section id="leckeres" class="section wrap">
+        <h2>Leckeres</h2>
+        <div class="getraenke bg-green">
+          <a href="#getraenke">Getränke</a>
+        </div>
+        <div class="kuchen bg-green">
+          <a href="#kuchen">Kuchen</a>
+        </div>
+      </section>
+      <!-- Erlesenes -->
+      <section id="erlesenes" class="section bg-black">
+        <div class="wrap">
+          <h2>Erlesenes</h2>
+          <p>Nicht nur unser Kaffee ist erlesen. Auch unsere Bücher sind es. Ob nun Krimi, Kinderbuch oder Roman… eine Vielzahl an neuen und gebrauchten Büchern warten nur darauf, von euch erlesen zu werden.</p>
+        </div>
+      </section>
+      <section id="das-team" class="section wrap bg-white">
+        <div>
+          <h2>Das Team</h2>
+          <p>Das Beans and Books Team lebt und öffnet seine Tür für diese Werte: Verantwortungsvolle Produkte, lecker, Frische, kreativ, saisonal, fair, entspannt, Gaumenfreude, gut gelaunt und nicht gewöhnlich…</p>
+          <p>Unser Team ist bunt: ob Quereinsteiger, Angestellter oder Werkstattmitarbeiter. Zusammen mit unserem Partner, der <a href="">Stiftung Pfennigparade</a>, stehen wir dafür, dass Inklusion auch gelebt wird.</p>
+        </div>
+        <article class="team-item">
+          <div class="team-img">
+            <img src="img/katharina-539x583.jpg" alt="">
+          </div>
+          <div class="team-name bg-green">
+            <p>Katharina</p>
+          </div>
+        </article>
+      </section>
     </main>
   </div>
 </body>
