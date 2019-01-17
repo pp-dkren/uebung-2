@@ -11,8 +11,8 @@
 
 <body>
   <div class="outer">
-    <header class="header">
-      <div class="header-nav wrap">
+    <header class="header bg-green">
+      <div class="header-nav">
         <nav class="main-nav">
           <button onclick="menu_toggle()" class="menu_button" name="menu_button" title="Menü">
             <img class="symbol" src="img/bars.svg" alt="">
@@ -27,34 +27,39 @@
             <li><a href="#finde-uns">Finde uns</a></li>
           </ul>
         </nav>
+        <!-- Social Nav -->
         <nav class="social-nav">
           <ul id="social-menu">
             <li><a href="#"><img src="img/facebook-square.svg" alt=""></a></li>
           </ul>
         </nav>
       </div>
-      <section class="section wrap">
+      <!-- Header Logos -->
+      <div class="section">
         <div class="bb-logo">
           <img src="img/bb-logo.svg" alt="">
         </div>
         <div class="pp-logo wrap">
           <img src="img/pp-logo.svg" alt="">
         </div>
-      </section>
+      </div>
     </header>
     <main class="main">
       <!-- Intro -->
-      <section id="intro" class="section bg-white">
-        <div class="wrap">
-          <h1>Das Beans and Books ist euer Büchercafé in München</h1>
-          <p>Bücher für jeden Geschmack und erlesener Kaffee. Entdeckt hausgemachte Köstlichkeiten und stöbert in unserer breiten Bücherauswahl... oder lasst einfach nur die Seele baumeln.</p>
-        </div>
-        <div class="slider">
-          <img src="img/bb_pflanzen-320x180.jpg" alt="">
-        </div>
+      <section class="section">
+        <h1>Das Beans and Books ist euer Büchercafé in München</h1>
+        <p>Bücher für jeden Geschmack und erlesener Kaffee. Entdeckt hausgemachte Köstlichkeiten und stöbert in unserer breiten Bücherauswahl... oder lasst einfach nur die Seele baumeln.</p>
       </section>
+      <div class="section">
+        <picture class="slider">
+          <source media="(min-width: 1280px)" srcset="img/bb_frau-1920x1080.jpg">
+          <source media="(min-width: 640px)" srcset="img/bb_frau-640x360.jpg">
+          <source media="(min-width: 320px)" srcset="img/bb_frau-320x180.jpg">
+          <img src="img/bb_frau-1920x1080.jpg" alt="Frau sitzt im Sessel und liest ein Buch.">
+        </picture>
+      </div>
       <!-- Leckeres -->
-      <section id="leckeres" class="section wrap">
+      <section class="section wrap">
         <h2>Leckeres</h2>
         <div class="getraenke bg-green">
           <a href="#getraenke">Getränke</a>
@@ -64,29 +69,27 @@
         </div>
       </section>
       <!-- Erlesenes -->
-      <section id="erlesenes" class="section bg-black">
+      <section class="section bg-black">
         <div class="wrap">
           <h2>Erlesenes</h2>
           <p>Nicht nur unser Kaffee ist erlesen. Auch unsere Bücher sind es. Ob nun Krimi, Kinderbuch oder Roman… eine Vielzahl an neuen und gebrauchten Büchern warten nur darauf, von euch erlesen zu werden.</p>
         </div>
       </section>
-      <section id="das-team" class="section wrap bg-white">
-        <div>
-          <h2>Das Team</h2>
-          <p>Das Beans and Books Team lebt und öffnet seine Tür für diese Werte: Verantwortungsvolle Produkte, lecker, Frische, kreativ, saisonal, fair, entspannt, Gaumenfreude, gut gelaunt und nicht gewöhnlich…</p>
-          <p>Unser Team ist bunt: ob Quereinsteiger, Angestellter oder Werkstattmitarbeiter. Zusammen mit unserem Partner, der <a href="">Stiftung Pfennigparade</a>, stehen wir dafür, dass Inklusion auch gelebt wird.</p>
-        </div>
-        <article class="team-item">
+      <!-- Das Team -->
+      <section class="section wrap">
+        <h2>Das Team</h2>
+        <p>Das Beans and Books Team lebt und öffnet seine Tür für diese Werte: Verantwortungsvolle Produkte, lecker, Frische, kreativ, saisonal, fair, entspannt, Gaumenfreude, gut gelaunt und nicht gewöhnlich…</p>
+        <p>Unser Team ist bunt: ob Quereinsteiger, Angestellter oder Werkstattmitarbeiter. Zusammen mit unserem Partner, der <a href="">Stiftung Pfennigparade</a>, stehen wir dafür, dass Inklusion auch gelebt wird.</p>
+        <div class="team-item">
           <div class="team-img">
             <img src="img/katharina-539x583.jpg" alt="">
           </div>
           <div class="team-name bg-green">
             <p>Katharina</p>
           </div>
-        </article>
+        </div>
       </section>
     </main>
   </div>
 </body>
-
 </html>
