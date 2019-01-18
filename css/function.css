@@ -1,4 +1,4 @@
-/*Global*/
+/* Globale Formatierungen */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -18,7 +18,12 @@
 .wrap {
   max-width: 64rem;
   margin: 0 auto;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
 }
 
 h1, h2, h3 {
@@ -40,10 +45,6 @@ a {
   text-decoration: underline;
 }
 
-p {
-  margin-bottom: 1rem;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -63,71 +64,27 @@ main .section {
   background-color: #becb00;
 }
 
-.bg-white {
-  background-color: #fff;
-  color: #000;
+header {
+  padding: 1.5rem;
 }
+/* Globale Formatierungen Ende */
 
-body, button {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 100%;
-}
-
-.header {
-  background-color: #becb00;
-}
-
+/* Spezifische Formatierungen */
+/* Header */
 .header-nav {
   border-bottom: 1px solid #000;
 }
 
-.main-nav {
-  padding-bottom: 1rem;
-}
-
-button {
-  padding: 1rem 0;
-  width: 100%;
-}
-
-.menu_button {
+.menu-button {
   background: transparent;
   border: none;
   display: inline-block;
   text-align: left;
 }
 
-.menu_button img {
+.symbol {
   height: auto;
   vertical-align: middle;
-  width: 1.7rem;
-}
-
-.menu-button-label {
-  font-size: 1.2rem;
-  margin-left: 0.8rem;
-}
-
-#main-menu li {
-  list-style-type: none;
-}
-
-#main-menu li a {
-  color: #000;
-  display: block;
-  font-size: 1.6rem;
-  padding: .8rem 3.5rem;
-  text-decoration: none;
-}
-
-.social-nav {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-}
-
-#social-menu li {
-  list-style-type: none;
   width: 2rem;
 }
 
@@ -140,40 +97,4 @@ button {
   padding-bottom: .5rem;
   text-align: center;
   width: 9rem;
-}
-
-.section p {
-  font-size: 1.15rem;
-  line-height: 1.75rem;
-}
-
-.slider {
-  margin-top: 4rem;
-}
-
-#leckeres div {
-  margin: 1rem auto;
-}
-
-.getraenke a,
-.kuchen a {
-  display: block;
-  font-size: 1.4rem;
-  padding: 1rem;
-}
-
-.getraenke a:hover,
-.getraenke a:focus,
-.kuchen a:hover,
-.kuchen a:focus {
-  background-color: #000;
-  color: #fff;
-}
-
-.team-item {
-  margin-top: 4rem;
-}
-
-.team-name {
-  padding: 1rem;
 }
