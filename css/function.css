@@ -172,15 +172,29 @@ header {
   margin-bottom: 0;
 }
 
+.a-item {
+  margin: 2rem 0;
+}
+
+.a-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .a-inner h4,
 .a-inner p {
   font-size: 1.1rem;
   font-weight: bold;
 }
-/* 
+
 .a-inner {
-  margin: 1.5rem 0;
-} */
+  clear: both;
+  padding: 2.5rem 0;
+}
+
+.a-inner img {
+  border-radius: 100%;
+}
 
 .a-text,
 .a-price {
@@ -188,10 +202,10 @@ header {
 }
 
 .a-text {
-  width: 65%;
+  width: 70%;
 }
 
 .a-price {
   text-align: right;
-  width: 35%;
+  width: 30%;
 }
