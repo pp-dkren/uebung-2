@@ -156,6 +156,10 @@ header {
 
 /* Main */
 /* Accordion */
+.a-item {
+  margin: 2rem 0;
+}
+
 .a-link {
   display: block;
   padding: 1rem;
@@ -172,10 +176,6 @@ header {
   margin-bottom: 0;
 }
 
-.a-item {
-  margin: 2rem 0;
-}
-
 .a-content {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -188,24 +188,43 @@ header {
 }
 
 .a-inner {
-  clear: both;
-  padding: 2.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+
+.a-inner:first-of-type {
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+/* List-Accordion */
+.col-1 {
+  width: 70%;
+}
+
+.col-2 {
+  width: 30%;
+}
+
+.a-price {
+  text-align: right;
+}
+
+/* Text-Accordion */
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.a-img {
+  margin-bottom: 2.5rem;
 }
 
 .a-inner img {
   border-radius: 100%;
 }
-
-.a-text,
-.a-price {
-  float: left;
-}
-
-.a-text {
-  width: 70%;
-}
-
-.a-price {
-  text-align: right;
-  width: 30%;
-}
+/* Accordion End */
