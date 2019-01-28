@@ -15,8 +15,9 @@ body {
   font-size: 100%;
 }
 
-.section {
-  padding: 3rem 1rem;
+section {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 img {
@@ -35,8 +36,8 @@ img {
 }
 
 .fluid {
-  margin-left: -1rem;
-  margin-right: -1rem;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
 }
 
 .bg-black {
@@ -48,8 +49,25 @@ img {
   background-color: #becb00;
 }
 
+.bg-grey {
+  background-color: #eee;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section:first-of-type {
+  margin-top: 2.5rem;
+}
+
 p {
   font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 h1, h2, h3, h4 {
@@ -225,3 +243,27 @@ a {
   border-radius: 100%;
 }
 /* Accordion End */
+
+/* Team */
+.team-item {
+  margin-top: 2.5rem;
+}
+
+.team-name {
+  margin-top: .5rem;
+  padding: 1rem;
+}
+
+.team-name h3 {
+  margin-bottom: 0;
+}
+
+.partner {
+  margin-top: 2.5rem;
+  width: 10rem;
+}
+
+.partner li {
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+}
