@@ -61,8 +61,12 @@ img {
   margin-bottom: 2.5rem;
 }
 
-.section:first-of-type {
+section:first-of-type {
   margin-top: 2.5rem;
+}
+
+section:last-child {
+  margin-bottom: 0;
 }
 
 p {
@@ -266,4 +270,31 @@ a {
 .partner li {
   list-style-type: none;
   margin-bottom: 1.5rem;
+}
+
+.footer {
+  padding: 1rem;
+}
+
+#footer-nav {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+#footer-nav li {
+  font-size: 1.1rem;
+  padding: 1rem 0;
+}
+
+#footer-nav a {
+  text-decoration: none;
+}
+
+#footer-nav a:focus,
+#footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
