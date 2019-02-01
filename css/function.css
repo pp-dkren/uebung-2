@@ -250,12 +250,21 @@ a {
 
 /* Team */
 .team-item {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 2.5rem;
 }
 
+.team-img {
+ order: 1;
+}
+
 .team-name {
+  display: block;
   margin-top: .5rem;
+  order: 2;
   padding: 1rem;
+  width: 100%;
 }
 
 .team-name h3 {
