@@ -439,13 +439,15 @@ a {
   width: 12rem;
 }
 
-@media (min-width: 768px) {
 
+/* Finde uns */
+iframe {
+  margin-bottom: 1rem;
+  width: 80%;
 }
 
-iframe {
-  height: 30%;
-  width: 100%;
+.times {
+  margin-top: 4rem;
 }
 
 .footer {
